@@ -16,15 +16,19 @@ export async function getStaticProps() {
 export default function Home({allPostsData }) {
   return (
     <Layout home>
+      <div style={{float:'left'}}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>My name is Muhammad Ali, I work in software design and development industry for last couple of decades.</p>
+</div><div style={{float:'right'}}>
+      <section className={utilStyles.headingLg}>
+        Hi, I'm Ali, a web and mobile developer 
+        </section> 
+</div>
+        <section className={utilStyles.headingMd}>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        I work in software design and development industry for last couple of decades.</p>
+       
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
