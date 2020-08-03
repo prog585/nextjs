@@ -1,0 +1,7 @@
+---
+title: 'Javascript language notes'
+date: '2020-08-04'
+---
+***Function Expression vs Function Declaration***
+- A Function Expression is created when the execution reaches it and is usable only from that moment.
+- A Function Declaration can be called earlier than it is defined.
